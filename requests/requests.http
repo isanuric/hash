@@ -1,0 +1,18 @@
+# curl --location --request POST 'http://localhost:8081/hash'
+#--header 'Content-Type: application/json'
+#--data-raw '{
+#    "name": "Man of The Year",
+#    "author": "AAA",
+#    "regisseur": "BBB"
+#}'
+POST http://localhost:8081/hash
+Content-Type: application/json
+
+{
+  "name": "Man of The Year",
+  "author": "AAA",
+  "regisseur": "BBB"
+}
+
+###
+
